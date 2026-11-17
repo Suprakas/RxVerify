@@ -1,0 +1,5 @@
+# Netlify: send API calls to the Render backend (same origin for the refresh cookie),
+# then fall back to index.html so client-side routes work on refresh.
+# Replace the URL with your Render service URL.
+/api/*  https://rxverify-api.onrender.com/api/:splat  200
+/*      /index.html  200

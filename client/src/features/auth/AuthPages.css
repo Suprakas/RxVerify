@@ -1,0 +1,32 @@
+.auth-page {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.auth-page__title {
+  font-size: var(--text-2xl);
+}
+
+.auth-page__subtitle {
+  color: var(--color-ink-muted);
+  margin-top: calc(var(--space-3) * -1);
+}
+
+.auth-page__form {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.auth-page__alert {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  background: var(--color-danger-soft);
+  color: var(--color-danger);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.auth-page__switch {
+  font-size: var(--text-sm);
+  color: var(--color-ink-muted);
+}
